@@ -1,0 +1,293 @@
+:root {
+  --dark-color1: #2d2b3e;
+  --dark-color2: #292738;
+  --dark-color3: #2b242b;
+  --dark-color4: #212529;
+}
+
+.bg-dark-1,
+body,
+.sticky-header.fixed-header,
+.header-style-two .header-lower,
+.page-wrapper,
+.header-style-one .main-box,
+.mobile-menu .menu-box,
+.features-section,
+.feature-block .inner-box,
+.feature-block .inner-box .icon:after,
+.features-section .bottom-box .icon,
+.service-block .inner-box,
+.country-block .inner-box,
+.process-block .inner-box .icon,
+.play-now .icon,
+.testimonial-section.stytle-three .default-navs .owl-next,
+.testimonial-section.stytle-three .default-navs .owl-prev,
+.testimonial-block .inner-box,
+.testimonial-block .inner-box:before,
+.news-block .content-box,
+.skills .skill-item .skill-bar .bar-inner,
+.contact-list-two li i,
+.newsletter-form .form-group input[type=text],
+.newsletter-form .form-group input[type=email],
+.about-section-two .experience,
+.services-section-two,
+.video-section .outer-box .video-box .play-now-two,
+.team-block .info-box,
+.feature-block-two .inner-box,
+.about-section-three .outer-box,
+.about-section-three .content-column .inner-column,
+.why-choose-us-two .content-column .inner-column .exp-box .inner,
+.faq-section-three .image-column .experience,
+.clients-section-two,
+.contact-form-three .select2-container--default .select2-selection--single,
+.contact-form-three input:not([type=submit]),
+.contact-form-three textarea, .contact-form-three select,
+.clients-section-two.style-two,
+.features-section-three,
+.contact-form-four .form-group .select2-container--default .select2-selection--single,
+.contact-form-four .form-group input:not([type=submit]),
+.contact-form-four .form-group textarea,
+.contact-form-four .form-group select {
+  background-color: var(--dark-color1);
+}
+
+.bg-dark-light {
+  background-color: var(--dark-color1);
+  opacity: 0.9;
+}
+
+.team-block .inner-box:hover .info-box .share-icon {
+  color: var(--theme-color1) !important;
+}
+
+.bg-dark-2,
+.header-style-two .header-lower .outer-box .btn-box,
+.header-style-one .header-lower .logo-box,
+.info-btn-two,
+.feature-block .inner-box .content:before,
+.about-section,
+.service-block .inner-box .icon-box,
+.contact-section .outer-box::before,
+.contact-video-block .inner-box .content-box .title span,
+.contact-section .outer-box,
+.process-block .inner-box:hover .content,
+.fun-fact-section .fact-counter,
+.why-choose-us::before,
+.about-section-two .content-column .info-box,
+.service-block-two .inner-box .content-box,
+.country-section-two .outer-box,
+.features-section-two,
+.accordion-box.style-two .block,
+.service-block-three .inner-box,
+.counter-block-two .icon,
+.call-to-action .outer-box,
+.testimonial-section-three,
+.service-block-four .inner-box .content-box,
+.contact-form-four,
+.news-section-three,
+.features-section-four {
+  background-color: var(--dark-color2);
+}
+
+.process-block .inner-box .content:before {
+  border-bottom: 20px solid var(--dark-color2);
+}
+
+.bg-dark-3,
+.services-section-four:before,
+.service-block-four .content-box,
+.service-block-four .content-box-hover,
+.news-section-two {
+  background-color: var(--dark-color3);
+}
+
+.bg-dark-4,
+.header-style-two .header-lower .logo-box:before,
+.service-block .inner-box .icon-box .icon,
+.why-choose-us .outer-box:before,
+.service-block-two .inner-box .content-box .inner,
+.service-block-three .inner-box .icon-box .icon,
+.about-block-four .icon:before {
+  background-color: var(--dark-color4);
+}
+
+.header-style-two .header-lower .logo-box:after {
+  border-top-color: var(--dark-color4);
+}
+
+.subscribe-section .outer-box:before,
+.why-choose-us-two .content-column .inner-column .exp-box .inner,
+.about-section-four .image-column .image-2 img {
+  border-color: var(--dark-color4);
+}
+
+.btn-style-three {
+  background-color: #000;
+}
+
+.service-block .inner-box,
+.about-section-two .image-column .image-2 img,
+.video-section .outer-box .video-box .play-now-two::before,
+.service-block-four .inner-box .content-box {
+  border-color: var(--dark-color1);
+}
+
+.feature-block-two .inner-box .image-box .icon {
+  outline-color: var(--dark-color1) !important;
+}
+
+.sticky-header .mobile-nav-toggler,
+.main-menu .navigation > li > a,
+.main-menu .navigation > li.current > a,
+strong,
+.title a,
+.sec-title h2,
+.main-header .ui-btn,
+.header-style-two .main-box .outer-box .cart-btn,
+.info-btn-two small,
+.features-section .bottom-box .inner-box .text,
+.sec-title .sub-title,
+.skills .skill-item .skill-header .skill-title,
+.skills .skill-item .skill-bar .bar-inner .skill-percentage,
+.info-btn small,
+.contact-video-block .inner-box .content-box .title span,
+.process-block .inner-box .content .title,
+.fun-fact-section .content-column .inner-column .title,
+.fun-fact-section .content-column .inner-column .read-more,
+.counter-block .count-box,
+.counter-block .count-box .count-text,
+.testimonial-block .inner-box .reason,
+.testimonial-block .inner-box .info-box .name,
+.news-block .content-box .read-more,
+.about-block-two .title,
+.about-section-two .content-column .info-box .title,
+.team-block .info-box .name a,
+.team-block .share-icon,
+.pie-graph-two .title,
+.faq-section-two .faq-column .inner-column .accordion-box.style-two .block .acc-btn,
+.faq-section-two .faq-column .inner-column .accordion-box.style-two .block .acc-btn.active,
+.accordion-box .block .acc-btn .arrow,
+.feature-block-two .inner-box .content .title,
+.about-block-three .inner-box .content .title,
+.counter-block-two .count-box,
+.counter-block-two .count-box .count-text,
+.choose-block .inner-box .title,
+.why-choose-us-two .content-column .inner-column .exp-box .title,
+.faq-section-three .faq-column .inner-column .accordion-box.style-two .block .acc-btn,
+.faq-section-three .faq-column .inner-column .accordion-box.style-two .block .acc-btn.active,
+.faq-section-three .image-column .experience,
+.contact-form-three .select2-container--default .select2-selection--single::placeholder,
+.contact-form-three input:not([type=submit])::placeholder,
+.contact-form-three textarea::placeholder,
+.contact-form-three select::placeholder,
+.feature-block-three .inner-box .content-box .title,
+.about-block-four .title,
+.contact-info-block .title,
+.contact-form-four .title,
+.features-section-four .features-list li,
+.features-section-four .features-list li .count {
+  color: var(--theme-color-light) !important;
+}
+
+.text-lights,
+p,
+.text,
+.list-style-one li,
+.list-style-two li,
+.counter-block .counter-title,
+.about-section-two .experience,
+.pie-graph-two .graph-outer .inner-text,
+.faq-section-two .faq-column .inner-column .accordion-box.style-two .block .content .text,
+.faq-section-three .faq-column .inner-column .accordion-box.style-two .block .content .text,
+.counter-block-two .counter-title,
+.about-section-four .content-column .inner-column .list-style-one li,
+.about-section-four .content-column .inner-column .content-box .info-box {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.bg-dark-text-light,
+.news-block .image-box .date span,
+.project-block .content-box .title,
+.project-block .content-box .cat,
+.service-block-four .inner-box .image-box .read-more {
+  background-color: var(--theme-color-dark);
+  color: var(--theme-color-light);
+}
+
+.why-choose-us .image-column .inner-column .exp-box:before,
+.main-slider .exp-box:before {
+  border-top-color: var(--theme-color-dark);
+}
+
+.range-slider-one .ui-widget-content .ui-state-default,
+.range-slider-one .ui-slider .ui-slider-range {
+  background-color: var(--theme-color-dark);
+}
+
+.about-block .inner-box {
+  background-color: transparent;
+}
+
+/*	Border Color */
+.border-color,
+.sec-title .sub-title,
+.counter-block .inner-box,
+.about-block-three .inner-box,
+.counter-block-two .inner-box,
+.about-section-five .image-column .image-2 img {
+  border-color: #2c2a2a;
+}
+
+.about-section-two .image-column .inner-column .image-2,
+.feature-block-four .inner-box .image-box .icon {
+  outline-color: #2c2a2a !important;
+}
+
+.why-choose-us-home1 .info-box:before {
+  border-top-color: #2c2a2a;
+}
+
+.bg-border-color,
+.team-block .inner-box:before {
+  background-color: #2c2a2a;
+}
+
+.bg-pattern-2,
+.features-section .bg-image,
+.about-section .icon-plane-2,
+.contact-section .bg-shape,
+.process-section::before,
+.news-section .icon-shape,
+.country-section-two .outer-box::before,
+.about-section-three .icon-plane-2,
+.fun-fact-section-two.style-two .icon-dots,
+.call-to-action .outer-box .bg-image {
+  opacity: 0.1;
+}
+
+.bg-unset {
+  background-color: unset;
+}
+
+.why-choose-us .outer-box:before {
+  background-image: unset;
+}
+
+.process-section .outer-box .icon-line {
+  filter: contrast(0);
+}
+
+.client-block .image {
+  filter: brightness(0) invert(1);
+}
+
+.clients-section .slide-item a:hover {
+  background-color: inherit;
+}
+
+.contact-form .form-group textarea {
+  background-color: #0a090f;
+}
+.contact-form .form-group input:not([type=submit]) {
+  background-color: #0a090f;
+}
