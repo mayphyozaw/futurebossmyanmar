@@ -2375,7 +2375,7 @@ Main Header
   padding-right: 14px;
   margin-right: -14px;
 }
-.main-menu .navigation > li.dropdown > a:after {
+/* .main-menu .navigation > li.dropdown > a:after {
   content: "\f067";
   position: absolute;
   right: 0;
@@ -2390,7 +2390,7 @@ Main Header
   font-weight: 900;
   margin-top: -2px;
   transform: translateY(-50%);
-}
+} */
 .main-menu .navigation > li.dropdown:hover > ul {
   visibility: visible;
   opacity: 1;

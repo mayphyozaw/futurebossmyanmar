@@ -14,8 +14,8 @@
           <!-- Info List -->
           <ul class="list-style-one light">
             <li><i class="fal fa-clock"></i> Monday - Friday: 9.00am - 10.00pm</li>
-            <li><i class="far fa-map-marker-alt"></i> Richardson, California 62639</li>
-            <li><i class="far fa-envelope"></i> <a href=""><span class="__cf_email__" data-cfemail="03756a7062646c436e626a6f2d606c6e">[email&#160;protected]</span></a></li>
+            <li><i class="far fa-map-marker-alt"></i> North Dagon Township, Yangon, Myanmar.</li>
+            <li><i class="far fa-envelope"></i> <a href=""><span class="__cf_email__" data-cfemail="03756a7062646c436e626a6f2d606c6e">info@futurebossmyanmar.com</span></a></li>
           </ul>
         </div>
       </div>
@@ -33,89 +33,23 @@
         <div class="nav-outer">
           <nav class="nav main-menu">
             <ul class="navigation">
-              <li class="current dropdown"><a href="index.html">Home</a>
+               <li><a href="{{route('welcome')}}">Home</a></li>
+              <li class="dropdown"><a href="#">Our Company</a>
                 <ul>
-                  <li><a href="index.html">Home page 01</a></li>
-                  <li><a href="index-2.html">Home page 02</a></li>
-                  <li><a href="index-3.html">Home page 03</a></li>
-                  <li><a href="index-4.html">Home page 04</a></li>
-                  <li><a href="index-5.html">Home page 05</a></li>
-                  <li class="dropdown"><a href="#">Single Page</a>
-                    <ul>
-                      <li><a href="index-1-single.html">Single Style One</a></li>
-                      <li><a href="index-2-single.html">Single Style Two</a></li>
-                      <li><a href="index-3-single.html">Single Style Three</a></li>
-                      <li><a href="index-4-single.html">Single Style Four</a></li>
-                      <li><a href="index-5-single.html">Single Style Five</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a href="#">Dark</a>
-                    <ul>
-                      <li><a href="index-1-dark.html">Dark Style One</a></li>
-                      <li><a href="index-2-dark.html">Dark Style Two</a></li>
-                      <li><a href="index-3-dark.html">Dark Style Three</a></li>
-                      <li><a href="index-4-dark.html">Dark Style Four</a></li>
-                      <li><a href="index-5-dark.html">Dark Style Five</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a href="#">RTL</a>
-                    <ul>
-                      <li><a href="index-1-rtl.html">RTL Style One</a></li>
-                      <li><a href="index-2-rtl.html">RTL Style Two</a></li>
-                      <li><a href="index-3-rtl.html">RTL Style Three</a></li>
-                      <li><a href="index-4-rtl.html">RTL Style Four</a></li>
-                      <li><a href="index-5-rtl.html">RTL Style Five</a></li>
-                    </ul>
-                  </li>
+                  <li><a href="page-about.html">What We Do</a></li>
+                  <li><a href="page-about.html">Company Profile</a></li>
+                  <li><a href="page-about.html">TriMax Co.,Ltd</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a href="#">Pages</a>
+              <li class="dropdown"><a href="#">Our Services</a>
                 <ul>
-                  <li><a href="page-about.html">About</a></li>
-                  <li class="dropdown"><a href="#">Country</a>
-                    <ul>
-                      <li><a href="page-country.html">Country grid</a></li>
-                      <li><a href="page-country-details.html">Country Details</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a href="#">Coaching</a>
-                    <ul>
-                      <li><a href="page-course.html">Coaching grid</a></li>
-                      <li><a href="page-course-details.html">Coaching Details</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a href="#">Team</a>
-                    <ul>
-                      <li><a href="page-team.html">Team Grid</a></li>
-                      <li><a href="page-team-details.html">Team Details</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"><a href="#">Shop</a>
-                    <ul>
-                      <li><a href="shop-products.html">Products</a></li>
-                      <li><a href="shop-products-sidebar.html">Products with Sidebar</a></li>
-                      <li><a href="shop-product-details.html">Product Details</a></li>
-                      <li><a href="shop-cart.html">Cart</a></li>
-                      <li><a href="shop-checkout.html">Checkout</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="page-testimonial.html">Testimonial</a></li>
-                  <li><a href="page-faq.html">Faq</a></li>
-                  <li><a href="page-404.html">404</a></li>
+                  <li><a href="page-about.html">Malaysia</a></li>
+                  <li><a href="page-about.html">Thailand</a></li>
+                  <li><a href="page-about.html">Japan</a></li>
                 </ul>
               </li>
-              <li class="dropdown"><a href="#">Visa</a>
-                <ul>
-                  <li><a href="page-services.html">Visa Grid</a></li>
-                  <li><a href="page-service-details.html">Visa Details</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#">Blog</a>
-                <ul>
-                  <li><a href="news-grid.html">News Grid</a></li>
-                  <li><a href="news-details.html">News Details</a></li>
-                </ul>
-              </li>
+              <li><a href="page-contact.html">Recruitment Activities</a></li>
+              <li><a href="page-contact.html">Job Apply</a></li>
               <li><a href="page-contact.html">Contact</a></li>
             </ul>
           </nav>
@@ -123,23 +57,6 @@
         <!-- Main Menu End-->
 
         <!-- Outer Box -->
-        <div class="outer-box">
-          <!-- Header Search -->
-          <button class="ui-btn cart-btn"> <i class="icon fal fa-shopping-cart"></i> <span class="count">0</span> </button>
-          <div class="divider"></div>
-          <!-- Header Search -->
-          <div class="header-search">
-            <button class="ui-btn search-btn ms-0">
-              <span class="icon lnr lnr-icon-search"></span>
-            </button>
-          </div>
-          <!-- Button -->
-          <div class="btn-box">
-            <a href="page-contact.html" class="theme-btn btn-style-one hover-dark"><span class="btn-title">Request a Quote</span></a>
-          </div>
-          <!-- Mobile Nav toggler -->
-          <div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
-        </div>
       </div>
     </div>
 

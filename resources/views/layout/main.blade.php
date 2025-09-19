@@ -24,21 +24,19 @@
 
 
 
-  <!-- Main Header-->
-    @include('layout.header')
-  <!--End Main Header -->
-
-  <!-- Banner Section -->
-    @include('layout.slider')
-  <!-- End Banner Section -->
-
   
+    @include('layout.header')
+    @if (URL::current() == route('welcome'))
+        @include('layout.slider')
+    @endif
 
-  <!-- Main Footer -->
-        @include('layout.footer')
-  <!--End Main Footer -->
-        @yield('content')
-</div><!-- End Page Wrapper -->
+    @yield('content')
+   
+
+    @include('layout.footer')
+ 
+       
+</div>
 
 <!-- Scroll To Top -->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>

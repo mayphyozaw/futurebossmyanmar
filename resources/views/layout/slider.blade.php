@@ -19,42 +19,7 @@
 
 
 
-  <style>
-    .main-banner-area {
-    position: relative;
-    z-index: 1;
-    background-color: rgb(249, 249, 249);
-    overflow: hidden;
-    }
-    .carousel {
-    position: relative;
-}
-    .carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    }
-    .carousel-indicators {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin-right: 15%;
-    margin-bottom: 1rem;
-    margin-left: 15%;
-    list-style: none;
-}
-.carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
 
-</style>
 <div class="main-banner-area">
     <div class="container-fluid pe-0 ps-0" >
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -91,3 +56,57 @@
         </div>
     </div>
 </div>
+  <section class="features-section pt-0">
+    <div class="bg-image" style="background-image:url(images/icons/pattern-1.png);"></div>
+    <div class="auto-container">
+      <div class="outer-box">
+        <div class="row">
+          <!-- Feature Block -->
+          <div class="feature-block col-xl-4 col-md-6 wow fadeInUp">
+            <div class="inner-box">
+              <div class="icon-box"><i class="icon flaticon-insurance"></i></div>
+              <div class="content">
+                <h4 class="title"><a href="page-about.html">Immigration & Visa Process</a></h4>
+                <div class="text">We strongly support best practice sharing across</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature Block -->
+          <div class="feature-block col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="300ms" >
+            <div class="inner-box">
+              <div class="icon-box"><i class="icon flaticon-visa"></i></div>
+              <div class="content">
+                <h4 class="title"><a href="page-about.html">Quick & Easy Visa Application</a></h4>
+                <div class="text">We strongly support best practice sharing across</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature Block -->
+          <div class="feature-block col-xl-4 col-md-6 wow fadeInUp" data-wow-delay="600ms">
+            <div class="inner-box">
+              <div class="icon-box"><i class="icon flaticon-visa-4"></i></div>
+              <div class="content">
+                <h4 class="title"><a href="page-about.html">Expert & Experince Consultants</a></h4>
+                <div class="text">We strongly support best practice sharing across</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Box -->
+    <div class="bottom-box">
+      <div class="auto-container">
+        <div class="inner-box">
+          <p class="text">Visago is clearly your best partner at Immigration& Visa success <a href="page-contact.html">Request A Quote</a></p>
+          <div class="btn-box">
+            <i class="icon fa fa-phone"></i>
+            <a href="tel:+5284567592" class="theme-btn btn-style-one hover-dark"><span class="btn-title">+(528) 456-7592</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
